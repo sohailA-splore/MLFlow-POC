@@ -8,7 +8,7 @@ replicaCount: 1
 # Image of mlflow
 image:
   # -- The docker image repository to use
-  repository: ghcr.io/mlflow/mlflow:v2.3.0
+  repository: burakince/mlflow
   # -- The docker image pull policy
   pullPolicy: IfNotPresent
   # -- The docker image tag to use. Default app version
